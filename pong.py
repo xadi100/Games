@@ -113,14 +113,14 @@ while True:
         pen.write("Player A: {} Player B: {}".format(score_a, score_b), align="center", font=("Courier", 20, "normal"))
 
     # Check for a win
-    if score_a == 2:
+    if score_a == 5:
         pen.clear()
         pen.write("Player A wins!", align="center", font=("Courier", 20, "normal"))
         ballMovement(False)
        # break 
        
 
-    if score_b == 2:
+    if score_b == 5:
         pen.clear()
         pen.write("Player B wins!", align="center", font=("Courier", 20, "normal"))
        # break 
